@@ -78,6 +78,7 @@ The collection was executed using Newman, and an HTML report was generated.
   b. Click Run Collection
 
 Run Using Newman:
+
 newman run CollectionforAPI.json -e EnvironmentforAPI.json -r htmlextra --reporter-htmlextra-export API_Report_newman.html
 
 📌 Expected Outcome:
@@ -87,4 +88,5 @@ newman run CollectionforAPI.json -e EnvironmentforAPI.json -r htmlextra --report
 4. Failed assertions can be analyzed for debugging and improvement.
 
 👩‍💻 Author:
+
 Tasmin Jannat Tahsin
