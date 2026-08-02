@@ -47,11 +47,11 @@ This project demonstrates REST API Testing using Postman and Newman. It includes
 
  ✅ Test Assertions: 
  
- ✔ Status Code Validation
- ✔ Response Time Validation
- ✔ Response Size Validation
- ✔ Response Format Validation
- ✔ Data Validation
+ 1. Status Code Validation
+ 2. Response Time Validation
+ 3. Response Size Validation
+ 4. Response Format Validation
+ 5. Data Validation
 
  📊 Newman Execution Summary:
  The Newman report shows the following execution summary:
@@ -62,8 +62,10 @@ This project demonstrates REST API Testing using Postman and Newman. It includes
  5. Skipped Tests
 
 📈 Report:
-The collection was executed using Newman, and an HTML report was generated.
-Report File: "API_Report_newman.html"
+The collection was executed using Newman, and an HTML report was generated. 
+ 
+ Report File:
+ "API_Report_newman.html"
 
 ▶️ How to Run:
 1. Import Collection:
