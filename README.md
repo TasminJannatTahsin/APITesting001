@@ -62,6 +62,7 @@ This project demonstrates REST API Testing using Postman and Newman. It includes
  5. Skipped Tests
 
 📈 Report:
+
 The collection was executed using Newman, and an HTML report was generated. 
  
  Report File:
