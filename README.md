@@ -1,22 +1,25 @@
- 🚀 API Testing Project
+🚀 API Testing Project
  
- 📌 Project Overview:
- This project demonstrates REST API Testing using Postman and Newman. It includes API request execution, automated test scripts, 
- environment variables, and Newman report generation for validating API functionality.
+📌 Project Overview:
 
- 🛠️ Tools & Technologies:
+This project demonstrates REST API Testing using Postman and Newman. It includes API request execution, automated test scripts, environment variables, and Newman report generation for validating API functionality.
+
+🛠️ Tools & Technologies:
+
  1. 📮 Postman
  2. ⚡ Newman
  3. 📄 HTML Extra Reporter
  4. 📜 JavaScript (Postman Test Scripts)
 
  📂 Project Structure:
+ 
  1.  CollectionforAPI.json
  2.  EnvironmentforAPI.json
  3.  API_Report_newman.html
  4.  README.md
 
 📋 API Collection:
+
  The project contains 9 API requests:
  1. GetBookingIds-------------GET  Method
  2. CreateBooking-------------POST Method
@@ -29,6 +32,7 @@
  9. GetSpecificBookingId----GET Method (Verify Deleted Booking)
 
 🌍 Environment Variables:
+
  The collection uses the following environment variables:
  1. base_url--------->API Base URL
  2. bookingid--------->Booking ID
@@ -42,6 +46,7 @@
  10. additionalneeds-->Additional Needs
 
  ✅ Test Assertions: 
+ 
  ✔ Status Code Validation
  ✔ Response Time Validation
  ✔ Response Size Validation
