@@ -66,14 +66,18 @@ This project demonstrates REST API Testing using Postman and Newman. It includes
 The collection was executed using Newman, and an HTML report was generated. 
  
  Report File:
+ 
  "API_Report_newman.html"
 
 ▶️ How to Run:
-1. Import Collection:
+Import Collection:
+
   a. Open Postman
   b. Import the Collection
   c. Import the Environment
-2. Run Collection:
+  
+ Run Collection:
+ 
   a. Select the Environment
   b. Click Run Collection
 
@@ -82,6 +86,7 @@ Run Using Newman:
 newman run CollectionforAPI.json -e EnvironmentforAPI.json -r htmlextra --reporter-htmlextra-export API_Report_newman.html
 
 📌 Expected Outcome:
+
 1. All API endpoints execute successfully.
 2. Assertions validate response correctness.
 3. Newman generates an HTML report.
