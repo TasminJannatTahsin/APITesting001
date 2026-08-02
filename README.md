@@ -70,17 +70,18 @@ The collection was executed using Newman, and an HTML report was generated.
  "API_Report_newman.html"
 
 ▶️ How to Run:
+
 Import Collection:
 
-  a. Open Postman
-  b. Import the Collection
-  c. Import the Environment
-  
+  1. Open Postman
+  2. Import the Collection
+  3. Import the Environment
+
  Run Collection:
  
-  a. Select the Environment
-  b. Click Run Collection
-
+ 1. Select the Environment
+ 2. Click Run Collection 
+ 
 Run Using Newman:
 
 newman run CollectionforAPI.json -e EnvironmentforAPI.json -r htmlextra --reporter-htmlextra-export API_Report_newman.html
