@@ -84,7 +84,7 @@ Import Collection:
  
 Run Using Newman:
 
-newman run CollectionforAPI.json -e EnvironmentforAPI.json -r htmlextra --reporter-htmlextra-export API_Report_newman.html
+newman run CollectionforAPI.json -e EnvironmentforAPI.json -r htmlextra 
 
 📌 Expected Outcome:
 
